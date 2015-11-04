@@ -1,7 +1,7 @@
 body {
-  margin: 0;
+  margin: auto;
   background-color: white;
-
+  overflow: hidden;
 }
 
 #container {
@@ -10,8 +10,75 @@ body {
 
 }
 
+header {
+  font-size: 0.8em;
+  font-family: sans-serif;
+  font-weight:lighter;
+  float: right;
+  margin-right: 90px;
+  margin-top: 10px;
+  display: inline-block;
+
+
+}
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+/*#profil {
+    height: 20px;
+    width: 30px;
+    background-color: black;
+    display: inline-block;
+    margin-top: 10px;
+}*/
+
+#button {
+   height: 30px;
+   width: 95px;
+   display: inline-block;
+   background-color: #4386eb;
+   border: 0px solid #777;
+   border-radius: 2px;
+   font: bold 1em/2em Arial, Helvetica;
+   text-decoration: none;
+   color: white;
+}
+
 section img {
   margin-left: 500px;
   margin-top: 190px;
 
+}
+
+#search {
+    margin-top: 20px;
+    margin-left: 370px;
+    padding: 5px 9px;
+    height: 26px;
+    width: 550px;
+    border: 1px solid rgb(190, 190, 190);
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: white;
+}
+ol li {
+  display:inline-block;
+padding: 10px;
+float: left;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: normal;
+  color:rgb(103, 103, 103);
+  font-family: sans-serif;
+}
+
+
+footer {
+  margin-top: 305px;
+  background-color: rgb(218, 218, 218);
+  height: 45px;
 }
